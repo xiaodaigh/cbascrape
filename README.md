@@ -9,5 +9,6 @@ library(cbascrape)
 
 # need you to enter your Netbank ID and password.
 # It's not stored anyway and is thrown away after use
-cbascrape::get_cba_trans() 
+cba_transactions = cbascrape::get_cba_trans() 
+View(cba_transactions)
 ```
